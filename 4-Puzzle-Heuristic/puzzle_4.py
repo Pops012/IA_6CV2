@@ -1,3 +1,5 @@
+#CANDIA NAVARRO IVAN 6CV2
+
 from arbol import Nodo
 
 def evaluar_distancia(nodo):
@@ -48,7 +50,7 @@ def solucionar_puzzle(estado_inicial, meta):
             print("Frontera actual: ", [n.get_datos() for n in frontera])
 
             frontera.sort(key=lambda x: x.get_coste(), reverse=False)
-            
+
             print("Frontera ordenada: ", [n.get_datos() for n in frontera])
 
 if __name__ == "__main__":
